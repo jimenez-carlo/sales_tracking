@@ -152,7 +152,7 @@
 
                         <tr>
                           <td></td>
-                          <td style="text-align:right"><?= $res['particular']; ?></td>
+                          <td><?= $res['particular']; ?></td>
                           <td style="text-align:right"><?= number_format(intval($res['qty'])); ?></td>
                           <td style="text-align:right"><?= number_format(intval($res['price']), 2); ?></td>
                           <td style="text-align:right"><?= number_format(intval($res['discount']), 2); ?></td>
