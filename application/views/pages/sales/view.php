@@ -165,7 +165,7 @@
                     <tr>
                       <th>Sub&nbsp;Total</th>
                       <td></td>
-                      <td style="text-align:right"><?= number_format($qty, 2); ?></td>
+                      <td style="text-align:right"><?= number_format($qty); ?></td>
                       <td style="text-align:right"><?= number_format($price, 2); ?></td>
                       <td style="text-align:right"><?= number_format($discount, 2); ?></td>
                       <td style="text-align:right"><?= number_format($linetotal, 2); ?></td>
